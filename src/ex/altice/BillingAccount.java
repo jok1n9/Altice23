@@ -17,7 +17,7 @@ public class BillingAccount {
         
         assert(msisdn.matches("^[1-9][0-9]{10}$"));
         assert(tariffServiceA.equals("Alpha1") || tariffServiceA.equals("Alpha2") || tariffServiceA.equals("Alpha3") ); 
-        assert(tariffServiceB.equals("Beta1") || tariffServiceA.equals("Beta2") || tariffServiceA.equals("Beta3") );
+        assert(tariffServiceB.equals("Beta1") || tariffServiceB.equals("Beta2") || tariffServiceB.equals("Beta3") );
         assert(bucket1>=0);
         assert(bucket2>=0);
         assert(bucket3>=0);
